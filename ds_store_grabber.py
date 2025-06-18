@@ -6,15 +6,11 @@ import base64
 from datetime import datetime
 import os
 import shutil
-import fnmatch
 
 urllib3.disable_warnings(category=urllib3.exceptions.InsecureRequestWarning)
 
 found_urls = []
 base_url = ""
-
-DS_Store_Entries = []
-
 
 def str2bool(v):
     if isinstance(v, bool):
