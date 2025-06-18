@@ -1,3 +1,5 @@
+# Blog post can be found here: https://medium.com/@nexusfuzzy/lumma-stealer-meets-forensics-baa59c9b9817
+
 import requests
 import argparse
 from ds_store import DSStore
